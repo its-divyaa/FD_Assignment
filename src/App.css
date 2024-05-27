@@ -1,0 +1,114 @@
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.__home-img {
+  background-color: #4066c0 !important;
+  padding-bottom: 50px;
+}
+
+.__home-inner {
+  justify-content: center;
+}
+
+.__home-sidebar {
+  background-color: #3b5ba8 !important;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.__navbar {
+  background-color: #4066c0 !important;
+}
+
+.__navbar-brand {
+  color: white !important;
+  letter-spacing: 0.2em;
+  font-weight: 800;
+}
+
+.__revenue {
+  background-color: #3b5ba8 !important;
+  padding: 20px;
+}
+
+.__revenue-inner {
+  justify-content: center;
+  padding: 10px;
+}
+
+.__revenue-icon {
+  text-align: center;
+  padding: 20px;
+}
+.__revenue-icon h4 {
+  color: white;
+  padding-top: 5px;
+  font-size: 1.1em;
+}
+
+.__apps-desc {
+  justify-content: center;
+  padding: 10px;
+}
+
+.__apps {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100vh;
+  padding-bottom: 80px;
+}
+
+.__card-title {
+  margin-block-end: 0 !important;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.__card-sub-title {
+  font-size: 0.7em;
+}
+
+.__card_inner {
+  text-align: center !important;
+}
+
+.__card-inner-title {
+  margin-block-end: 0 !important;
+  font-size: 0.7em;
+}
+.__card-inner-value {
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.__table {
+  padding-top: 50px;
+}
+
+.__table p {
+  padding-bottom: 50px;
+}
+
+.__btn {
+  background-color: transparent !important;
+  border: 0;
+}
+
+.__btn svg {
+  font-size: 1.5em;
+}
+
+.card {
+  box-shadow: 3px 3px 5px 3px #f0f0f0 !important;
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow: scroll;
+  }
+  .__apps {
+    height: auto;
+  }
+}
